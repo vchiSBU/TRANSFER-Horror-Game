@@ -11,20 +11,20 @@
     ],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
-      },
-      {
-        "source" : "benchmark1",
+        "source" : "/benchmark1",
         "destination" : "/benchmark1.html"
       },
       {
-        "source" : "benchmark2",
+        "source" : "/benchmark2",
         "destination" : "/benchmark2.html"
       },
       {
-        "source" : "benchmark3",
+        "source" : "/benchmark3",
         "destination" : "/benchmark3.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
