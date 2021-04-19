@@ -26,6 +26,7 @@
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "redirects": []
   }
 }
