@@ -495,7 +495,50 @@
                  "width":16,
                  "x":832,
                  "y":256
-                }],
+                },
+                {
+                     "gid":25,
+                     "height":16,
+                     "id":1,
+                     "name":"",
+                     "properties":[
+                            {
+                             "name":"Group",
+                             "type":"string",
+                             "value":"coin"
+                            }, 
+                            {
+                             "name":"HasPhysics",
+                             "type":"bool",
+                             "value":true
+                            }, 
+                            {
+                             "name":"IsCollidable",
+                             "type":"bool",
+                             "value":false
+                            }, 
+                            {
+                             "name":"IsTrigger",
+                             "type":"bool",
+                             "value":true
+                            }, 
+                            {
+                             "name":"TriggerGroup",
+                             "type":"string",
+                             "value":"player"
+                            }, 
+                            {
+                             "name":"TriggerOnEnter",
+                             "type":"string",
+                             "value":"PlayerHitCoin"
+                            }],
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":16,
+                     "x":256,
+                     "y":256
+                    }],
          "opacity":1,
          "properties":[
                 {
