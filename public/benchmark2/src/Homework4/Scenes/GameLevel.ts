@@ -406,6 +406,9 @@ export default class GameLevel extends Scene {
         let enemy = this.add.animatedSprite(spriteKey, "primary");
         enemy.position.set(tilePos.x*32, tilePos.y*32);
         enemy.scale.set(2, 2);
+        if (spriteKey === 'rat') {
+            enemy.scale.set(0.75, 0.75);
+        }
         enemy.addPhysics();
         enemy.addAI(EnemyController, aiOptions);
         enemy.setGroup("enemy");enemy.setTrigger("player", HW4_Events.PLAYER_HIT_ENEMY, null);

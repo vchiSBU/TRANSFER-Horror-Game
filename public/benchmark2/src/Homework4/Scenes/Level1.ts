@@ -54,16 +54,17 @@ export default class Level1 extends GameLevel {
         this.viewport.setBounds(0, 0, 64*32, 20*32);
 
         this.playerSpawn = new Vec2(5*32, 18*32);
-
+        
         // Do generic setup for a GameLevel
         super.startScene();
-
+        
+        this.player.scale = new Vec2(0.5, 0.5);
         this.addLevelEnd(new Vec2(58, 17), new Vec2(2, 2));
 
         this.nextLevel = Level2;
 
         // Add enemies of various types
-        for(let pos of [new Vec2(24, 17.4)]){
+        for(let pos of [new Vec2(24, 18.4), new Vec2(26, 18.4), new Vec2(12, 18.4), new Vec2(40, 18.4), new Vec2(51, 17)]){
             this.addEnemy("rat", pos, {});
         }
 

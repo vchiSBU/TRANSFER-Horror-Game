@@ -1,10 +1,10 @@
 {
     "name": "Character",
     "spriteSheetImage": "Character.png",
-    "spriteWidth": 16,
-    "spriteHeight": 16,
-    "columns": 2,
-    "rows": 2,
+    "spriteWidth": 64,
+    "spriteHeight": 64,
+    "columns": 10,
+    "rows": 1,
     "durationType": "time",
     "animations": [
         { 
@@ -13,15 +13,15 @@
         },
         {
             "name": "WALK",
-            "frames": [ {"index": 0, "duration": 16}, {"index": 1, "duration": 16}, {"index": 2, "duration": 16}, {"index": 3, "duration": 16} ]
+            "frames": [ {"index": 1, "duration": 8}, {"index": 2, "duration": 8}, {"index": 3, "duration": 8}, {"index": 4, "duration": 8}, {"index": 5, "duration": 8}, {"index": 4, "duration": 8}, {"index": 3, "duration": 8}, {"index": 2, "duration": 8}, {"index": 1, "duration": 8}, {"index": 0, "duration": 8} ]
         },
         {
             "name": "JUMP",
-            "frames":[ {"index": 2, "duration": 32}]
+            "frames":[ {"index": 6, "duration": 8}, {"index": 7, "duration": 8}, {"index": 8, "duration": 8}, {"index": 9, "duration": 8}, {"index": 6, "duration": 8}]
         },
         {
             "name": "FALL",
-            "frames":[ {"index": 2, "duration": 32}]
+            "frames":[ {"index": 8, "duration": 32}]
         }
     ]
 }
